@@ -1,0 +1,40 @@
+/* src/pages/HomePage.css */
+
+body {
+    background-image: url('../images/back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0; /* Pour éviter les marges par défaut du body */
+    padding: 0; /* Pour éviter les paddings par défaut du body */
+  }
+  
+  
+  .container {
+    background-color: #94dd26;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #01f948;
+  }
+  
+  .game-link {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: #56eb0b;
+    border: 2px solid #0fc348;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .game-link:hover {
+    background-color: #51b245;
+    color: #598725;
+  }
+  
